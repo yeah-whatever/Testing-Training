@@ -3,7 +3,6 @@
   <groupId>com.BDDAutomationTesting</groupId>
   <artifactId>BDDAutomationTesting</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Abhideep</name>
   <description>Behaviour Driven Development using Gherkin</description>
   <dependencies>
 
