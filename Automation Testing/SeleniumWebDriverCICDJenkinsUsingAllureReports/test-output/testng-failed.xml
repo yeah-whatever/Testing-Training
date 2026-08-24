@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.JenkinsCICD.JenkinsCICDTest$BrowserCommands">
+        <methods>
+          <include name="ChromeBrowserTest5"/>
+          <include name="FirefoxBrowserTest4"/>
+          <include name="EdgeBrowserTest5"/>
+          <include name="ChromeBrowserTest4"/>
+          <include name="ChromeBrowserTest2"/>
+          <include name="FirefoxBrowserTest5"/>
+          <include name="FirefoxBrowserTest"/>
+          <include name="FirefoxBrowserTest2"/>
+          <include name="EdgeBrowserTest"/>
+        </methods>
+      </class> <!-- com.JenkinsCICD.JenkinsCICDTest$BrowserCommands -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
