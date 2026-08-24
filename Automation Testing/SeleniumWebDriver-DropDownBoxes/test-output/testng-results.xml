@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-17T10:41:47 IST" name="Default suite" finished-at="2026-08-17T10:42:12 IST" duration-ms="25437">
+    <groups>
+    </groups>
+    <test started-at="2026-08-17T10:41:47 IST" name="Default test" finished-at="2026-08-17T10:42:12 IST" duration-ms="25437">
+      <class name="com.DropDown.TestDemo.DropDownBoxes">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.DropDown.TestDemo.DropDownBoxes@178213b]" started-at="2026-08-17T10:41:47 IST" name="Setup" finished-at="2026-08-17T10:41:51 IST" duration-ms="4496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DropDownList()[pri:0, instance:com.DropDown.TestDemo.DropDownBoxes@178213b]" started-at="2026-08-17T10:41:51 IST" name="DropDownList" finished-at="2026-08-17T10:42:12 IST" duration-ms="20625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDownList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DropDown.TestDemo.DropDownBoxes@178213b]" started-at="2026-08-17T10:42:12 IST" name="tearDown" finished-at="2026-08-17T10:42:12 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DropDown.TestDemo.DropDownBoxes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
