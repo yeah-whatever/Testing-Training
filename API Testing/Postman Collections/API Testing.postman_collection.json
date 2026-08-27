@@ -1,0 +1,851 @@
+{
+  "info": {
+    "_postman_id": "7dbd2e0b-7ad3-4c05-9878-bbe03dbaefbf",
+    "name": "API Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56551147",
+    "_collection_link": "https://go.postman.co/collection/56551147-7dbd2e0b-7ad3-4c05-9878-bbe03dbaefbf?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "PUT requests",
+      "item": [
+        {
+          "name": "Request 1",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": 0,\r\n  \"title\": \"string\",\r\n  \"price\": 0.1,\r\n  \"description\": \"string\",\r\n  \"category\": \"string\",\r\n  \"image\": \"http://example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products/0",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products",
+                "0"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 2",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": 0,\r\n  \"userId\": 0,\r\n  \"products\": [\r\n    {\r\n      \"id\": 0,\r\n      \"title\": \"string\",\r\n      \"price\": 0.1,\r\n      \"description\": \"string\",\r\n      \"category\": \"string\",\r\n      \"image\": \"http://example.com\"\r\n    }\r\n  ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/carts/0",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "carts",
+                "0"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 3",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"account\": 1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://automationexercise.com/api/updateAccount",
+              "protocol": "https",
+              "host": [
+                "automationexercise",
+                "com"
+              ],
+              "path": [
+                "api",
+                "updateAccount"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 4",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": 0,\r\n  \"username\": \"string\",\r\n  \"email\": \"string\",\r\n  \"password\": \"string23\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/users/0",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "users",
+                "0"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 5",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": 1,\r\n  \"title\": \"Updated Post\",\r\n  \"body\": \"This post has been updated using PUT\",\r\n  \"userId\": 1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "GET requests",
+      "item": [
+        {
+          "name": "Dummy JSON Get Todos List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://dummyjson.com/todos",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "todos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request  1",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://automationexercise.com/api/getUserDetailByEmail\n",
+              "protocol": "https",
+              "host": [
+                "automationexercise",
+                "com"
+              ],
+              "path": [
+                "api",
+                "getUserDetailByEmail\n"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://automationexercise.com/api/productsList\n",
+              "protocol": "https",
+              "host": [
+                "automationexercise",
+                "com"
+              ],
+              "path": [
+                "api",
+                "productsList\n"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 3",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "RestAssuredwithBDD1",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/employees",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "employees"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "RestAssuredwithBDD3",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "RestAssuredwithBDD2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://fakestoreapi.com/",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "RestAssuredwithBDD4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://automationexercise.com/api/brandsList",
+              "protocol": "https",
+              "host": [
+                "automationexercise",
+                "com"
+              ],
+              "path": [
+                "api",
+                "brandsList"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "RestAssuredwithBDD5",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.restful-api.dev/collections",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restful-api",
+                "dev"
+              ],
+              "path": [
+                "collections"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "RESTAssuredwithBDD1",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\r\n    \"userId\": 10,\r\n    \"id\": 98,\r\n    \"title\": \"laboriosam dolor voluptates\",\r\n    \"body\": \"Hello\"\r\n  }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "POST requests",
+      "item": [
+        {
+          "name": "Request 1",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"productid\" : \"4\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://automationexercise.com/api/searchProduct",
+              "protocol": "https",
+              "host": [
+                "automationexercise",
+                "com"
+              ],
+              "path": [
+                "api",
+                "searchProduct"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 2",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://automationexercise.com/api/verifyLogin",
+              "protocol": "https",
+              "host": [
+                "automationexercise",
+                "com"
+              ],
+              "path": [
+                "api",
+                "verifyLogin"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 3",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummyjson.com/products",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://dummyjson.com/products/add",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "products",
+                "add"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 5",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts\n",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts\n"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"API Testing\",\r\n    \"price\": 23456,\r\n    \"description\" : \"Postman API\",\r\n    \"category\" : \"Automation Testing\",\r\n    \"image\" : \"https://fakestoreapi.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Laasya\",\r\n    \"salary\": \"7000\",\r\n    \"age\": \"22\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/create",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "DELETE requests",
+      "item": [
+        {
+          "name": "Request 1",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "https://dummyjson.com/products/1\n",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "products",
+                "1\n"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 2",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "https://dummyjson.com/todos/1",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "todos",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 3",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://dummyjson.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://fakestoreapi.com/products/1",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Request 5",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1\n",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1\n"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"id\" :1,\r\n    \"title\" : \"{{title}}\",\r\n    \"price\" :\"{{price}}\",\r\n    \"description\" : \"{{description}}\",\r\n    \"category\" : \"{{category}}\",\r\n    \"image\" : \"{{image}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "DataDrivenTesting",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"id\" :1,\r\n    \"title\" : \"{{title}}\",\r\n    \"price\" :\"{{price}}\",\r\n    \"description\" : \"{{description}}\",\r\n    \"category\" : \"{{category}}\",\r\n    \"image\" : \"{{image}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "TestScriptsGenerationUsingPostman",
+      "item": [
+        {
+          "name": "New Request",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status Code is 201\", function () {\r",
+                  "    pm.response.to.have.status(201);\r",
+                  "});\r",
+                  "\r",
+                  "pm.test(\"Status Code\", () => {\r",
+                  "    pm.response.to.have.status(201);\r",
+                  "});\r",
+                  "\r",
+                  "pm.test(\"Response Time\", () => {\r",
+                  "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+                  "});\r",
+                  "\r",
+                  "pm.test(\"Successful POST request\", function () {\r",
+                  "    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
+                  "});\r",
+                  "\r",
+                  "pm.test(\"Status Code Validation\", function () {\r",
+                  "    pm.response.to.have.status(\r",
+                  "        parseInt(pm.iterationData.get(\"expectedStatus\"))\r",
+                  "    );\r",
+                  "});\r",
+                  "\r",
+                  "let jsonData = pm.response.json();\r",
+                  "\r",
+                  "pm.test(\"Token exists\", function () {\r",
+                  "\r",
+                  "    if(pm.response.code==200){\r",
+                  "\r",
+                  "        pm.expect(jsonData.token).to.not.be.null;\r",
+                  "\r",
+                  "    }\r",
+                  "\r",
+                  "});\r",
+                  "\r",
+                  "pm.test(\"Status Code Validation\", function () {\r",
+                  "    pm.response.to.have.status(parseInt(pm.iterationData.get(\"status\")));\r",
+                  "    pm.test(\"Status code is 200\", function () {\r",
+                  "        pm.response.to.have.status(200);\r",
+                  "    });\r",
+                  "    pm.test(\"Status code is 200\", function () {\r",
+                  "        pm.response.to.have.status(200);\r",
+                  "    });\r",
+                  "    pm.test(\"Status code is 200\", function () {\r",
+                  "        pm.response.to.have.status(200);\r",
+                  "    });\r",
+                  "    pm.test(\"Status code is 200\", function () {\r",
+                  "        pm.response.to.have.status(200);\r",
+                  "    });\r",
+                  "    pm.test(\"Status code is 200\", function () {\r",
+                  "        pm.response.to.have.status(200);\r",
+                  "    });\r",
+                  "});\r",
+                  "\r",
+                  "pm.test(\"Response Time\", function () {\r",
+                  "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "HTMLReportsInPostman",
+      "item": []
+    }
+  ]
+}
