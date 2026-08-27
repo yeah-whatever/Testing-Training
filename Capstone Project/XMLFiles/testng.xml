@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TheInternetSuite">
+
+    <test name="TheInternetTests">
+
+        <classes>
+
+            <class name="com.TheInternet.TestCases.LoginTest"/>
+            <class name="com.TheInternet.TestCases.CheckboxesTest"/>
+            <class name="com.TheInternet.TestCases.DropdownTest"/>
+            <class name="com.TheInternet.TestCases.DynamicControlsTest"/>
+            <class name="com.TheInternet.TestCases.DynamicLoadingTest"/>
+            <class name="com.TheInternet.TestCases.JavaScriptAlertsTest"/>
+            <class name="com.TheInternet.TestCases.FramesTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
